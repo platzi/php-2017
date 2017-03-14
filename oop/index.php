@@ -18,4 +18,3 @@ $truck2 = new Truck('Max', 'Pickup');
 $truck2->move();
 
 echo '<br>Total Trucks: ' . Truck::getTotal() . '<br>';
-
