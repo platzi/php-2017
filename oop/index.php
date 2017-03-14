@@ -8,9 +8,14 @@ use Vehicles\{Car, Truck};
 echo 'Class Car<br>';
 $car = new Car('Alex');
 $car->move();
-echo 'Owner car: ' . $car->getOwner() . '<br>';
 
-echo '<br>Class truck<br>';
-$truck = new Truck('Max', 'Pickup');
-$truck->move();
-echo 'Owner truck: ' . $truck->getOwner();
+echo '<br>Class truck 1<br>';
+$truck1 = new Truck('Max', 'Pickup');
+$truck1->move();
+
+echo '<br>Class truck 2<br>';
+$truck2 = new Truck('Max', 'Pickup');
+$truck2->move();
+
+echo '<br>Total Trucks: ' . Truck::getTotal() . '<br>';
+
