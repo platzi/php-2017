@@ -20,6 +20,7 @@ try {
 echo 'Class Car<br>';
 $car = new Car('Alex');
 $car->move();
+echo 'GPS pos: ' . $car->getPos();
 
 echo '<br>Class truck 1<br>';
 $truck1 = new Truck('Max', 'Pickup');

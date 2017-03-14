@@ -3,8 +3,12 @@
 namespace Vehicles;
 
 require_once 'VehicleBase.php';
+require_once 'GPSTrait.php';
 
 class Car extends VehicleBase implements \Serializable {
+
+    use GPSTrait;
+
     public function move() {
         echo $this->startEngine() . '<br>';
         echo 'Car: moving<br>';
