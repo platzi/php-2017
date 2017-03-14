@@ -4,6 +4,17 @@ class Car
 {
     private $owner;
 
+    public function __construct($ownerName)
+    {
+        $this->owner = $ownerName;
+        echo 'construct<br>';
+    }
+
+    public function __destruct()
+    {
+        echo 'destruct<br>';
+    }
+
     public function move() {
         echo 'moving<br>';
     }
@@ -19,12 +30,10 @@ class Car
 
 echo 'Class Car<br>';
 
-$car = new Car();
-$car2 = new Car();
+$car = new Car('Max');
+$car2 = new Car('Max');
 
 $car->move();
-$car->setOwner('Alex');
-$car2->setOwner('Max');
 
 echo 'Owner car: ' . $car->getOwner() . '<br>';
 echo 'Owner car2: ' . $car2->getOwner();
