@@ -14,5 +14,15 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PHARS">
+        <CLASSES>
+          <root url="phar://$MODULE_DIR$/blog/composer.phar/" />
+        </CLASSES>
+        <SOURCES>
+          <root url="phar://$MODULE_DIR$/blog/composer.phar/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>
