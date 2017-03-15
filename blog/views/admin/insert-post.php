@@ -1,17 +1,3 @@
-<?php
-
-$result = false;
-
-if (!empty($_POST)) {
-    $sql = 'INSERT INTO blog_posts (title, content) VALUES (:title, :content)';
-    $query = $pdo->prepare($sql);
-    $result = $query->execute([
-        'title' => $_POST['title'],
-        'content' => $_POST['content']
-    ]);
-}
-
-?>
 <html>
 <head>
     <title>Blog with Platzi</title>
@@ -29,14 +15,14 @@ if (!empty($_POST)) {
         <div class="col-md-8" >
             <h2>New Post</h2>
             <p>
-                <a class="btn btn-default" href="posts.php">Back</a>
+                <a class="btn btn-default" href="<?php echo BASE_URL; ?>admin/posts">Back</a>
             </p>
             <?php
-                if($result) {
+                if(isset($result) && $result) {
                     echo '<div class="alert alert-success">Post Saved!</div>';
                 }
             ?>
-            <form action="insert-post.php" method="post">
+            <form method="post">
                 <div class="form-group">
                     <label for="inputTitle">Title</label>
                     <input type="text" class="form-control" name="title" id="inpuTitle">
