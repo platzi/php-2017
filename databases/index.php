@@ -1,18 +1,3 @@
-<?php
-
-$dbHost = 'localhost';
-$dbName = 'cursophp';
-$dbUser = 'root';
-$dbPass = '';
-
-try {
-    $pdo = new PDO("mysql:host=$dbHost;dbname=$dbName", $dbUser, $dbPass);
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-} catch(Exception $e) {
-    echo $e->getMessage();
-}
-
-?>
 <html>
 <head>
     <title>Databases with Platzi</title>
@@ -27,7 +12,7 @@ try {
                 <a href="">List Users</a>
             </li>
             <li>
-                <a href="">Add User</a>
+                <a href="add.php">Add User</a>
             </li>
         </ul>
     </div>
