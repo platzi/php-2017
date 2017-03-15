@@ -9,7 +9,7 @@
         <h1>Databases</h1>
         <ul>
             <li>
-                <a href="">List Users</a>
+                <a href="list.php">List Users</a>
             </li>
             <li>
                 <a href="add.php">Add User</a>
