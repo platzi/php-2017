@@ -6,6 +6,7 @@
   },
   "require": {
     "phroute/phroute": "^2.1",
-    "twig/twig": "~2.0"
+    "twig/twig": "~2.0",
+    "illuminate/database": "^5.4"
   }
 }
