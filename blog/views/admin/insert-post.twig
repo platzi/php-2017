@@ -5,6 +5,17 @@
     <p>
         <a class="btn btn-default" href="{{ 'admin/posts' | url }}">Back</a>
     </p>
+    {% if errors %}
+        <div class="alert alert-danger">
+            <ul>
+                {% for input, messages in errors %}
+                    {% for message in messages %}
+                        <li>{{ input }}: {{ message }}</li>
+                    {% endfor %}
+                {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
     {% if result %}
         <div class="alert alert-success">Post Saved!</div>
     {% endif %}
