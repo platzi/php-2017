@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21ff0aac-2fee-402f-856b-3833638051a7" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/views/index.php" afterPath="$PROJECT_DIR$/blog/views/index.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/views/layout.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/views/admin/index.php" afterPath="$PROJECT_DIR$/blog/views/admin/index.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/views/admin/insert-post.php" afterPath="$PROJECT_DIR$/blog/views/admin/insert-post.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/blog/views/admin/posts.php" afterPath="$PROJECT_DIR$/blog/views/admin/posts.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/app/controllers/BaseController.php" afterPath="$PROJECT_DIR$/blog/app/controllers/BaseController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/app/controllers/IndexController.php" afterPath="$PROJECT_DIR$/blog/app/controllers/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/app/controllers/admin/IndexController.php" afterPath="$PROJECT_DIR$/blog/app/controllers/admin/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/app/controllers/admin/PostController.php" afterPath="$PROJECT_DIR$/blog/app/controllers/admin/PostController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/views/index.twig" afterPath="$PROJECT_DIR$/blog/views/index.twig" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -53,11 +57,74 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.twig" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/views/index.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+            <state relative-caret-position="570">
+              <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/views/admin/index.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="posts.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/views/admin/posts.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insert-post.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/views/admin/insert-post.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="5" column="63" lean-forward="false" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/app/controllers/admin/PostController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+              <folding>
+                <marker date="1489685506000" expanded="true" signature="212:253" ph="SELECT * FRO... blog_posts" />
+                <marker date="1489685506000" expanded="true" signature="600:665" ph="INSERT INTO blog_posts... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/app/controllers/admin/IndexController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/views/layout.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -71,10 +138,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/operators/arithmetic.php" />
-        <option value="$PROJECT_DIR$/operators/assignment.php" />
-        <option value="$PROJECT_DIR$/operators/comparison.php" />
-        <option value="$PROJECT_DIR$/operators/arrays.php" />
         <option value="$PROJECT_DIR$/operators/increment.php" />
         <option value="$PROJECT_DIR$/operators/logical.php" />
         <option value="$PROJECT_DIR$/operators/null.php" />
@@ -111,17 +174,21 @@
         <option value="$PROJECT_DIR$/blog/admin/insert-post.php" />
         <option value="$PROJECT_DIR$/blog/index.php" />
         <option value="$PROJECT_DIR$/blog/public/.htaccess" />
-        <option value="$PROJECT_DIR$/blog/views/admin/index.php" />
         <option value="$PROJECT_DIR$/blog/views/admin/posts.php" />
         <option value="$PROJECT_DIR$/blog/views/admin/insert-post.php" />
         <option value="$PROJECT_DIR$/blog/composer.json" />
-        <option value="$PROJECT_DIR$/blog/app/controllers/admin/IndexController.php" />
         <option value="$PROJECT_DIR$/blog/views/index.php" />
-        <option value="$PROJECT_DIR$/blog/app/controllers/admin/PostController.php" />
         <option value="$PROJECT_DIR$/blog/public/index.php" />
         <option value="$PROJECT_DIR$/blog/app/controllers/IndexController.php" />
         <option value="$PROJECT_DIR$/blog/app/controllers/BaseController.php" />
+        <option value="$PROJECT_DIR$/blog/views/layout.twig" />
         <option value="$PROJECT_DIR$/blog/views/index.twig" />
+        <option value="$PROJECT_DIR$/blog/views/admin/index.php" />
+        <option value="$PROJECT_DIR$/blog/app/controllers/admin/IndexController.php" />
+        <option value="$PROJECT_DIR$/blog/views/admin/index.twig" />
+        <option value="$PROJECT_DIR$/blog/views/admin/posts.twig" />
+        <option value="$PROJECT_DIR$/blog/app/controllers/admin/PostController.php" />
+        <option value="$PROJECT_DIR$/blog/views/admin/insert-post.twig" />
       </list>
     </option>
   </component>
@@ -211,11 +278,59 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CursoPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CursoPHP" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CursoPHP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CursoPHP" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -314,7 +429,7 @@
       <updated>1489437311125</updated>
       <workItem from="1489437312399" duration="17477000" />
       <workItem from="1489526370083" duration="5801000" />
-      <workItem from="1489593751671" duration="20447000" />
+      <workItem from="1489593751671" duration="21621000" />
     </task>
     <task id="LOCAL-00001" summary="Video 21 Intro OOP">
       <created>1489526438911</created>
@@ -491,11 +606,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489683243320</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Video 47 BLOG Twig - First Template&#10;">
+      <created>1489684189772</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1489684189772</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43725000" />
+    <option name="totallyTimeSpent" value="44899000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -536,7 +658,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Video 21 Intro OOP" />
     <MESSAGE value="Video 22 Constructor y Destructor" />
     <MESSAGE value="Video 23 Herencia" />
     <MESSAGE value="Video 24 Namespaces" />
@@ -561,20 +682,14 @@
     <MESSAGE value="Video 44 BLOG All routes&#10;" />
     <MESSAGE value="Video 45 BLOG Controllers&#10;" />
     <MESSAGE value="Video 47 BLOG Twig&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Video 47 BLOG Twig&#10;" />
+    <MESSAGE value="Video 47 BLOG Twig - First Template&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Video 47 BLOG Twig - First Template&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/variables/strings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/variables/arrays.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -878,58 +993,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views/admin/posts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="30" column="53" lean-forward="false" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
-          <folding>
-            <marker date="1489620223000" expanded="true" signature="1310:1372" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views/admin/insert-post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-          <folding>
-            <marker date="1489620653000" expanded="true" signature="1913:1975" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/vendor/autoload.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/app/controllers/admin/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="7" column="8" lean-forward="false" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/app/controllers/admin/PostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <marker date="1489681235000" expanded="true" signature="152:193" ph="SELECT * FRO... blog_posts" />
-            <marker date="1489681235000" expanded="true" signature="542:607" ph="INSERT INTO blog_posts... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -967,10 +1035,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views/layout.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="15" column="42" lean-forward="false" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog/views/index.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="37" column="42" lean-forward="false" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+        <state relative-caret-position="570">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/controllers/admin/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="9" column="46" lean-forward="false" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views/admin/posts.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views/admin/index.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/app/controllers/admin/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="33" column="36" lean-forward="false" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+          <folding>
+            <marker date="1489685506000" expanded="true" signature="212:253" ph="SELECT * FRO... blog_posts" />
+            <marker date="1489685506000" expanded="true" signature="600:665" ph="INSERT INTO blog_posts... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views/admin/insert-post.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="5" column="63" lean-forward="false" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
           <folding />
         </state>
       </provider>
