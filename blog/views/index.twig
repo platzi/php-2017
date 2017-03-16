@@ -13,20 +13,18 @@
     </div>
     <div class="row">
         <div class="col-md-8" >
-            <?php
-            foreach ($blogPosts as $blogPost) {
-                echo '<div class="blog-post">';
-                echo '<h2>' . $blogPost['title'] . '</h2>';
-                echo '<p>Jan 1, 2020 by <a href="">Alex</a></p>';
-                echo '<div class="blog-post-image">';
-                echo '<img src="images/keyboard.jpg" alt="">';
-                echo '</div>';
-                echo '<div class="blog-post-content">';
-                echo $blogPost['content'];
-                echo '</div>';
-                echo '</div>';
-            }
-            ?>
+            {% for blogPost in blogPosts %}
+                <div class="blog-post">
+                    <h2>{{ blogPost.title }}</h2>
+                    <p>Jan 1, 2020 by <a href="">Alex</a></p>
+                    <div class="blog-post-image">
+                        <img src="images/keyboard.jpg" alt="">
+                    </div>
+                    <div class="blog-post-content">
+                        {{ blogPost.content }}
+                    </div>
+                </div>
+            {% endfor %}
 
         </div>
         <div class="col-md-4">
@@ -37,7 +35,7 @@
         <div class="col-md-12">
             <footer>
                 This is a footer<br>
-                <a href="<?php echo BASE_URL; ?>admin">Admin Panel</a>
+                <a href="{{ 'admin' | url }}">Admin Panel</a>
             </footer>
         </div>
     </div>
