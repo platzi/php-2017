@@ -11,17 +11,34 @@
     {% if result %}
         <div class="alert alert-success">Post Saved!</div>
     {% endif %}
-    <form method="post">
+    <form method="post" onsubmit="return validateForm()">
         <div class="form-group">
             <label for="inputTitle">Title</label>
-            <input type="text" class="form-control" name="title" id="inpuTitle">
+            <input type="text" class="form-control" name="title" id="inputTitle">
         </div>
         <div class="form-group">
-            <label for="inputImg">Title</label>
+            <label for="inputImg">Image Url</label>
             <input type="text" class="form-control" name="img" id="inputImg">
         </div>
+        <label for="inputContent">Content</label>
         <textarea class="form-control" name="content" id="inputContent" rows="5"></textarea>
         <br>
         <input class="btn btn-primary" type="submit" value="Save">
     </form>
+{% endblock %}
+
+{% block js %}
+    <script>
+        function validateForm() {
+            var title = document.getElementById('inputTitle').value.trim();
+            if (title === '') {
+                swal(
+                    'Oops...',
+                    'Title is required...',
+                    'error'
+                );
+                return false;
+            }
+        }
+    </script>
 {% endblock %}
